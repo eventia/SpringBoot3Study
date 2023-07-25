@@ -1,4 +1,6 @@
 https://wikidocs.net/160543
+https://wikidocs.net/161186
+
 
 스프링부트3 이용한 게시판 만들기
 
