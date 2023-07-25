@@ -1,26 +1,20 @@
 package com.example.demo;
 
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
+// 생성자를 이용 v1.0.2
+@RequiredArgsConstructor
 @Getter
 @Setter
 public class HelloLombok {
 	
-	private  String hello;
-	private  int lombok;
-	
-/*
-	public String getHello() 	{		return hello;	}
-	public int getLombok() 		{		return lombok;	}
-	public void setHello(String hello) 	{		this.hello = hello;	}
-	public void setLombok(int lombok) 	{		this.lombok = lombok;	}
-*/
-	
+	private final String hello;
+	private final int lombok;
+
 	public static void main(String[] args) {
-		HelloLombok helloLombok = new HelloLombok();
-		helloLombok.setHello("헬로우");
-		helloLombok.setLombok(5);
+		HelloLombok helloLombok = new HelloLombok("헬로우", 5);
 		
 		System.out.println(helloLombok.getHello());
 		System.out.println(helloLombok.getLombok());
