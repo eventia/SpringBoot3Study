@@ -2,3 +2,9 @@ https://wikidocs.net/160543
 
 스프링부트3 이용한 게시판 만들기
 
+
+
+C:\Users\(사용자명) 디렉도리에서 아래 명령으로 local.mv.db 파일 생성 
+copy con local.mv.db
+^Z
+
